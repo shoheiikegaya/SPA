@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.server
+    volumes:
+      - ./server:/server
+    working_dir: /server
+    command: npm start
+    tty: true
+    ports:
+      - 3000:3000
+
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile.app
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: npm start
+    tty: true
+    ports:
+      - 3001:3001

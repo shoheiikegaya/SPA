@@ -1,0 +1,10 @@
+FROM node:14.16-alpine3.12
+#ENV NODE_ENV=development
+
+COPY ./ /srever
+WORKDIR /srever
+RUN npm install
+RUN npm run build
+EXPOSE 3000
+#CMD ["node","dist/server.js"]
+
