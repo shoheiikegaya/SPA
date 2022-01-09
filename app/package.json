@@ -9,9 +9,7 @@
     "dev": "webpack --config webpack.dev.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "prodstart": "webpack --config webpack.prod.js ",
-    "prodstart_BK": "webpack --config webpack.prod.js && webpack --config webpack.server.js",
-    "devstart": "webpack-dev-server --open --config webpack.dev.js",
-    "ok": "webpack-dev-server --open --config webpack.dev.js"
+    "devstart": "webpack-dev-server --open --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",

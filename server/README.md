@@ -1,3 +1,10 @@
+docker-compose から実行してください
+
+npm run build
+npm start
+
+//以下メモ-------------------------------------------------------
+
 // 任意のディレクトリでプロジェクトを初期化
 npm init -y
 
@@ -25,8 +32,3 @@ npm install --save jsonwebtoken
 npm install --save @types/jsonwebtoken
 
 npm install --save body-parser
-
-/_---------------------------------------------------------------_/
-
-npm run build
-npm start

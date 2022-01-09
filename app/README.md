@@ -1,3 +1,10 @@
+docker-compose から実行してください
+
+npm run dev
+npm start
+
+//以下メモ-------------------------------------------------------
+
 // 任意のディレクトリでプロジェクトを初期化
 npm init -y
 
@@ -29,8 +36,3 @@ npm install --save @material-ui/icons
 
 npm install --save node-fetch@2.6.5
 npm install --save @types/node-fetch@2.5.12
-
-//-------------------------------------------------------
-
-npm run dev
-npm start
