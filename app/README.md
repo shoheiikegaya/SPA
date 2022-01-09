@@ -30,7 +30,7 @@ npm install --save @material-ui/icons
 npm install --save node-fetch@2.6.5
 npm install --save @types/node-fetch@2.5.12
 
-//------------------------------------------------------
+//-------------------------------------------------------
 
 npm run dev
 npm start
